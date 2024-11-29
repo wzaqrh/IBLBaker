@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jaricom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jccoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jccolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcdctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jchuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcinit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcomapi.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcparam.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcprepct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jcsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jctrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdapimin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdapistd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdarith.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdatadst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdatasrc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdcoefct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdcolor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jddctmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdhuff.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdinput.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdmainct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdmarker.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdmaster.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdmerge.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdpostct.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdsample.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jdtrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jfdctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jfdctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jfdctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jidctflt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jidctfst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jidctint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jmemmgr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jmemnobs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jquant1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jquant2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\jutils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\transupp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD867041-77F9-3CE4-8030-9B49FE2E708C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

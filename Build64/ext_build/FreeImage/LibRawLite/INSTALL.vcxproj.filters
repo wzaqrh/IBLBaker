@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\IBLBaker\Build64\CMakeFiles\229d206c2c8d3b4e943f0721aeba7e10\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{412C39CD-608A-3BBC-9D7D-8221B7D95176}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

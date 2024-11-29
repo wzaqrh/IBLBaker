@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite\internal\dcraw_common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite\internal\dcraw_fileio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite\internal\demosaic_packs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite\src\libraw_c_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite\src\libraw_cxx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite\src\libraw_datastream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD867041-77F9-3CE4-8030-9B49FE2E708C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

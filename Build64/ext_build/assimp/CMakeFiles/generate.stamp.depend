@@ -1,0 +1,13 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake316/share/cmake-3.30/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/FindPkgConfig.cmake
+D:/proj/IBLBaker/src/critter/dependencies/assimp/CMakeLists.txt
+D:/proj/IBLBaker/src/critter/dependencies/assimp/assimp-config-version.cmake.in
+D:/proj/IBLBaker/src/critter/dependencies/assimp/assimp-config.cmake.in
+D:/proj/IBLBaker/src/critter/dependencies/assimp/assimp.pc.in
+D:/proj/IBLBaker/src/critter/dependencies/assimp/cmake-modules/FindDirectX.cmake
+D:/proj/IBLBaker/src/critter/dependencies/assimp/cmake-modules/FindPkgMacros.cmake
+D:/proj/IBLBaker/src/critter/dependencies/assimp/cmake-modules/PrecompiledHeader.cmake
+D:/proj/IBLBaker/src/critter/dependencies/assimp/cmake-modules/cmake_uninstall.cmake.in
+D:/proj/IBLBaker/src/critter/dependencies/assimp/revision.h.in

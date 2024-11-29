@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.alpha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.frame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.idec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.io.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.quant.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.vp8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.vp8l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dec\dec.webp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\demux\demux.demux.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.alpha_processing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.alpha_processing_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.alpha_processing_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.argb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.argb_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.argb_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.cost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.cost_mips32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.cost_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.cost_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.cpu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.dec_clip_tables.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.dec_mips32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.dec_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.dec_neon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.dec_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.enc_avx2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.enc_mips32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.enc_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.enc_neon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.enc_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.filters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.filters_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.filters_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.lossless.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.lossless_mips32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.lossless_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.lossless_neon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.lossless_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.rescaler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.rescaler_mips32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.rescaler_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.upsampling.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.upsampling_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.upsampling_neon.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.upsampling_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.yuv.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.yuv_mips32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.yuv_mips_dsp_r2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\dsp\dsp.yuv_sse2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.alpha.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.analysis.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.backward_references.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.cost.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.filter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.frame.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.histogram.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.iterator.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.near_lossless.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.picture.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.picture_csp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.picture_psnr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.picture_rescale.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.picture_tools.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.quant.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.syntax.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.token.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.tree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.vp8l.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\enc\enc.webpenc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\mux\mux.anim_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\mux\mux.muxedit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\mux\mux.muxinternal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\mux\mux.muxread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.bit_reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.bit_writer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.color_cache.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.filters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.huffman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.huffman_encode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.quant_levels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.quant_levels_dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.rescaler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.thread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src\utils\utils.utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CD867041-77F9-3CE4-8030-9B49FE2E708C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0270427A-3BFE-3844-9D83-8EAA7D817B5A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Critter</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\IBLBaker\Build64\ext_build\critter\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Critter.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Critterd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\IBLBaker\Build64\ext_build\critter\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Critter.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Critter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\IBLBaker\Build64\ext_build\critter\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Critter.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Critter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\IBLBaker\Build64\ext_build\critter\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Critter.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Critter</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244;4005;4996;4477;4267;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244;4005;4996;4477;4267;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244;4005;4996;4477;4267;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244;4005;4996;4477;4267;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\IBLBaker\src\critter\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/IBLBaker/src/critter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/ext_build/critter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\IBLBaker\Build64\ext_build\critter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/IBLBaker/src/critter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/ext_build/critter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\IBLBaker\Build64\ext_build\critter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/IBLBaker/src/critter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/ext_build/critter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\IBLBaker\Build64\ext_build\critter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/IBLBaker/src/critter/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/ext_build/critter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\IBLBaker\Build64\ext_build\critter\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\application\CtrApplication.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrApplication.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrHash.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\application\CtrHash.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrLog.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\application\CtrLog.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrMath.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrNonCopyable.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrPlatform.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\application\CtrTimer.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrTimer.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\application\CtrTitles.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrTitles.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\application\CtrWindow.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\application\CtrWindow.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrBitwise.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\codecs\CtrCodec.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrCodec.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\codecs\CtrColorValue.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrColorValue.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\codecs\CtrDataStream.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrDataStream.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\codecs\CtrDDSCodec.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrDDSCodec.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\codecs\CtrFreeImageCodec.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrFreeImageCodec.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrImageCodec.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrImageResampler.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrIteratorRange.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrIteratorWrapper.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrPixelConversions.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\codecs\CtrPixelFormat.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrPixelFormat.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\codecs\CtrStringUtilities.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrStringUtilities.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\codecs\CtrTextureImage.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\codecs\CtrTextureImage.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\cmdLine\CmdLine.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\imgui\droidsans.ttf.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\imgui\imconfig.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\imgui\imgui.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\imgui\imgui.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\imgui\stb_image.c" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\imgui\stb_rect_pack.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\imgui\stb_textedit.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\imgui\stb_truetype.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\MurmerHash\MurmurHash.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\MurmerHash\MurmurHash.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\nanovg\fontstash.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\nanovg\nanovg.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\nanovg\nanovg.c" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\pugixml\src\pugiconfig.hpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\pugixml\src\pugixml.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\dependencies\pugixml\src\pugixml.hpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\pugixml\src\pugixpath.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\input\CtrCameraManager.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\input\CtrCameraManager.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\input\CtrDampenedInput.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\input\CtrDampenedInput.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\input\CtrFocusedInput.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\input\CtrFocusedInput.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\input\CtrFocusedMovement.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\input\CtrFocusedMovement.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\input\CtrInput.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\input\CtrInput.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\input\CtrInputManager.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\input\CtrInputManager.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\input\CtrInputState.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\input\CtrInputState.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\input\CtrX360Controller.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\input\CtrX360Controller.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrColor.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrLimits.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrMatrix44.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrMatrixAlgo.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrQuaternion.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrRegion.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrVector2.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrVector3.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\math\CtrVector4.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\newui\Ctrimgui.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\newui\Ctrimgui.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\newui\Ctrnanovg.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\newui\CtrUIRenderer.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\newui\CtrUIRenderer.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\newui\ocornut_imgui.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\newui\ocornut_imgui.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrBrdf.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrBrdf.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrCamera.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrCamera.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrEntity.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrEntity.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrIndexedMesh.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrIndexedMesh.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrMesh.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrMesh.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrNode.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrNode.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrProjectionProperty.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrProjectionProperty.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrProperty.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrProperty.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrRenderNode.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrRenderNode.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrRenderTargetQuad.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrRenderTargetQuad.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrRenderTextureProperty.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrRenderTextureProperty.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrScene.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrScene.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrStreamedMesh.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrStreamedMesh.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrTransformNode.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrTransformNode.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrTransformProperty.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrTransformProperty.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrTypedProperty.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrViewportProperty.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrViewportProperty.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\nodes\CtrViewProperty.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\nodes\CtrViewProperty.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrAssetManager.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrAssetManager.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrColorPass.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrColorPass.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrColorResolve.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrColorResolve.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrDepthResolve.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrDepthResolve.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrFileChangeWatcher.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrFileChangeWatcher.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrFilterCubemap.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrFrameBuffer.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrFrameBuffer.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrGpuConstantBuffer.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrGpuConstantBuffer.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrGpuTechnique.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrGpuTechnique.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrGpuVariable.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrGpuVariable.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrHDRPresentationPolicy.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrHDRPresentationPolicy.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIBLProbe.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIBLProbe.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIBLRenderPass.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIBLRenderPass.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIComputeShader.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIComputeShader.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIDepthSurface.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIDepthSurface.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIDevice.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIDevice.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIEffect.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIEffect.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIGpuBuffer.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIGpuBuffer.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIIndexBuffer.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIIndexBuffer.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIRenderResource.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIRenderResource.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIRenderResourceParameters.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIRenderResourceParameters.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIShader.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIShader.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrISurface.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrISurface.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrITexture.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrITexture.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIVertexBuffer.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIVertexBuffer.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIVertexDeclaration.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrIVertexDeclaration.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrMaterial.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrMaterial.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrPostEffect.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrPostEffect.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrPostEffectsMgr.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrPostEffectsMgr.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrPresentationPolicy.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrPresentationPolicy.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrRenderEnums.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrRenderPass.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrRenderPass.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrRenderRequest.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrRenderRequest.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrScreenOrientedQuad.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrScreenOrientedQuad.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrShaderMgr.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrShaderMgr.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrShaderParameterValue.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrShaderParameterValue.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrShaderParameterValueFactory.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrShaderParameterValueFactory.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrTextureMgr.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrTextureMgr.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrVertexDeclarationMgr.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrVertexDeclarationMgr.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrVertexElement.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrVertexElement.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrVertexStream.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrVertexStream.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrViewport.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\renderAPI\CtrViewport.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\d3dxGlobal.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Effect.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\EffectAPI.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\EffectLoad.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\EffectLoad.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\EffectNonRuntime.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\EffectReflection.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\EffectRuntime.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\EffectVariable.inl" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary\EffectBinaryFormat.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary\EffectStateBase11.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary\EffectStates11.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary\SOParser.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc\d3dx11dbg.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc\d3dx11effect.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc\d3dxGlobal.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11\dxerr.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11\DxErr.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrBackbufferSurfaceD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrBackbufferSurfaceD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrBufferD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrBufferD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrComputeShaderD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrComputeShaderD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrDepthSurfaceD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrDepthSurfaceD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrEffectD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrEffectD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrFormatConversionD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrFormatConversionD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrGpuConstantBufferD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrGpuConstantBufferD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrGpuTechniqueD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrGpuTechniqueD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrGpuVariableD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrGpuVariableD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrIndexBufferD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrIndexBufferD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrInputLayoutCacheD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrInputLayoutCacheD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrRenderDeviceD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrRenderDeviceD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrRenderTargetTextureD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrRenderTargetTextureD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrRenderWindow.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrRenderWindow.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrRenderWindowD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrRenderWindowD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrShaderD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrShaderD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrSurfaceD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrSurfaceD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrTextureD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrTextureD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrTexture2DD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrTexture2DD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrVertexBufferD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrVertexBufferD3D11.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrVertexDeclarationD3D11.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\rendererD3D11\CtrVertexDeclarationD3D11.h" />
+    <ResourceCompile Include="D:\proj\IBLBaker\src\critter\resources\critter.rc" />
+    <None Include="D:\proj\IBLBaker\src\critter\resources\critter.res">
+    </None>
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\resources\resource.h" />
+    <None Include="D:\proj\IBLBaker\src\critter\resources\small.ico">
+    </None>
+    <None Include="D:\proj\IBLBaker\src\critter\resources\windowIcon.ico">
+    </None>
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\swizzling\CtrImageConversion.h" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\swizzling\CtrImageFunctionNode.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\ui\CtrImageWidget.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\ui\CtrImageWidget.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\ui\CtrRenderHUD.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\critter\ui\CtrRenderHUD.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ZERO_CHECK.vcxproj">
+      <Project>{A4DE1904-F9B1-31AF-8893-9CDA99087E93}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

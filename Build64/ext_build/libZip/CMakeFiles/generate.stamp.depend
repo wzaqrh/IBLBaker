@@ -1,0 +1,20 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CPack.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CPackComponent.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckSourceCompiles.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Modules/Internal/CheckSourceRuns.cmake
+C:/Program Files/CMake316/share/cmake-3.30/Templates/CPackConfig.cmake.in
+D:/proj/IBLBaker/src/critter/dependencies/libzip/CMakeLists.txt
+D:/proj/IBLBaker/src/critter/dependencies/libzip/cmake-config.h.in
+D:/proj/IBLBaker/src/critter/dependencies/libzip/cmake-zipconf.h.in

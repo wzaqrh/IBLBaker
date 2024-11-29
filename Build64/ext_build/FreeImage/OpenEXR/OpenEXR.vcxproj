@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AA732AF6-866F-3070-A9EE-1A16D1B88283}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>OpenEXR</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenEXR.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">OpenEXRd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenEXR.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">OpenEXR</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenEXR.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">OpenEXR</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenEXR.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">OpenEXR</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244;4005;4996;4477;4267;4244;4018;4305;4018;4838;4101;4800;4554;4101;4146;4804;4309;4146;4102</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;DISABLE_PERF_MEASUREMENT;CINTERFACE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;DISABLE_PERF_MEASUREMENT;CINTERFACE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244;4005;4996;4477;4267;4244;4018;4305;4018;4838;4101;4800;4554;4101;4146;4804;4309;4146;4102</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;DISABLE_PERF_MEASUREMENT;CINTERFACE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;DISABLE_PERF_MEASUREMENT;CINTERFACE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244;4005;4996;4477;4267;4244;4018;4305;4018;4838;4101;4800;4554;4101;4146;4804;4309;4146;4102</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;DISABLE_PERF_MEASUREMENT;CINTERFACE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;DISABLE_PERF_MEASUREMENT;CINTERFACE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244;4005;4996;4477;4267;4244;4018;4305;4018;4838;4101;4800;4554;4101;4146;4804;4309;4146;4102</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;DISABLE_PERF_MEASUREMENT;CINTERFACE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;FREEIMAGE_LIB;OPJ_STATIC;LIBRAW_NODLL;DISABLE_PERF_MEASUREMENT;CINTERFACE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/IBLBaker/src/critter/dependencies/FreeImage/Source/OpenEXR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/ext_build/FreeImage/OpenEXR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/IBLBaker/src/critter/dependencies/FreeImage/Source/OpenEXR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/ext_build/FreeImage/OpenEXR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/IBLBaker/src/critter/dependencies/FreeImage/Source/OpenEXR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/ext_build/FreeImage/OpenEXR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/IBLBaker/src/critter/dependencies/FreeImage/Source/OpenEXR/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/ext_build/FreeImage/OpenEXR/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath\IexMathFpu.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\b44ExpLogTable.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfAcesFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfB44Compressor.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfBoxAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfChannelList.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfChannelListAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticities.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfChromaticitiesAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfCompositeDeepScanLine.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfCompressionAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfCompressor.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfConvert.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfCRgbaFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepCompositing.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepFrameBuffer.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepImageStateAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineInputPart.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepScanLineOutputPart.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledInputPart.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDeepTiledOutputPart.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDoubleAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfDwaCompressor.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmap.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfEnvmapAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfFastHuf.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfFloatAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfFloatVectorAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfFrameBuffer.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfFramesPerSecond.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfGenericInputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfGenericOutputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfHeader.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfHuf.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfInputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfInputPart.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfInputPartData.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfIntAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfIO.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCode.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfKeyCodeAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfLineOrderAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfLut.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfMatrixAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfMisc.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartInputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfMultiPartOutputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfMultiView.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfOpaqueAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfOutputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfOutputPart.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfOutputPartData.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfPartType.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfPizCompressor.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImage.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfPreviewImageAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfPxr24Compressor.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfRational.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfRationalAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfRgbaYca.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfRle.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfRleCompressor.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfScanLineInputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfStandardAttributes.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfStdIO.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfStringAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfStringVectorAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfSystemSpecific.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTestFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfThreading.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTileDescriptionAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTiledInputPart.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTiledMisc.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTiledOutputPart.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTiledRgbaFile.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTileOffsets.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCode.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfTimeCodeAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfVecAttribute.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfVersion.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfWav.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfZip.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf\ImfZipCompressor.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath\ImathBox.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath\ImathColorAlgo.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath\ImathFun.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath\ImathMatrixAlgo.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath\ImathRandom.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath\ImathShear.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath\ImathVec.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex\IexBaseExc.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex\IexThrowErrnoExc.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half\half.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread\IlmThread.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread\IlmThreadMutex.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread\IlmThreadPool.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread\IlmThreadSemaphore.cpp" />
+    <ClCompile Include="D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath\IexMathFloatExc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ZERO_CHECK.vcxproj">
+      <Project>{A4DE1904-F9B1-31AF-8893-9CDA99087E93}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
