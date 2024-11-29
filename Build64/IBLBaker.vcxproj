@@ -1,0 +1,465 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BAC8BC32-6562-32BE-84BB-8F7E5015C09F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>IBLBaker</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\IBLBaker\bin64\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IBLBaker.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">IBLBakerd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\IBLBaker\bin64\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IBLBaker.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">IBLBaker</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\IBLBaker\bin64\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IBLBaker.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">IBLBaker</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\IBLBaker\bin64\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IBLBaker.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">IBLBaker</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -E copy_directory D:/proj/IBLBaker/bin64/Debug D:/proj/IBLBaker/bin64
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ext_build\zlib\Debug\zlibstaticd.lib;ext_build\libZip\lib\Debug\zipd.lib;ext_build\assimp\code\Debug\assimp-vc130-mtd.lib;ext_build\FreeImage\Debug\FreeImaged.lib;ext_build\assimp\code\Debug\assimp-vc130-mtd.lib;ext_build\critter\Debug\Critterd.lib;winmm.lib;XInput9_1_0.lib;D3DCompiler.lib;d3D11.lib;dxguid.lib;dinput8.lib;dxgi.lib;ext_build\FreeImage\OpenEXR\Debug\OpenEXRd.lib;ext_build\FreeImage\LibWebP\Debug\LibWebPd.lib;ext_build\FreeImage\LibTIFF4\Debug\LibTIFF4d.lib;ext_build\FreeImage\LibRawLite\Debug\LibRawLited.lib;ext_build\FreeImage\LibPNG\Debug\LibPNGd.lib;ext_build\FreeImage\LibOpenJPEG\Debug\LibOpenJPEGd.lib;ext_build\FreeImage\LibJXR\Debug\LibJXRd.lib;ext_build\FreeImage\LibJPEG\Debug\LibJPEGd.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/IBLBaker/lib/Debug/IBLBakerd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/proj/IBLBaker/bin64/Debug/IBLBakerd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -E copy_directory D:/proj/IBLBaker/bin64/Release D:/proj/IBLBaker/bin64
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ext_build\zlib\Release\zlibstatic.lib;ext_build\libZip\lib\Release\zip.lib;ext_build\assimp\code\Release\assimp-vc130-mt.lib;ext_build\FreeImage\Release\FreeImage.lib;ext_build\assimp\code\Release\assimp-vc130-mt.lib;ext_build\critter\Release\Critter.lib;winmm.lib;XInput9_1_0.lib;D3DCompiler.lib;d3D11.lib;dxguid.lib;dinput8.lib;dxgi.lib;ext_build\FreeImage\OpenEXR\Release\OpenEXR.lib;ext_build\FreeImage\LibWebP\Release\LibWebP.lib;ext_build\FreeImage\LibTIFF4\Release\LibTIFF4.lib;ext_build\FreeImage\LibRawLite\Release\LibRawLite.lib;ext_build\FreeImage\LibPNG\Release\LibPNG.lib;ext_build\FreeImage\LibOpenJPEG\Release\LibOpenJPEG.lib;ext_build\FreeImage\LibJXR\Release\LibJXR.lib;ext_build\FreeImage\LibJPEG\Release\LibJPEG.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/IBLBaker/lib/Release/IBLBaker.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/proj/IBLBaker/bin64/Release/IBLBaker.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -E copy_directory D:/proj/IBLBaker/bin64/MinSizeRel D:/proj/IBLBaker/bin64
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ext_build\zlib\MinSizeRel\zlibstatic.lib;ext_build\libZip\lib\MinSizeRel\zip.lib;ext_build\assimp\code\MinSizeRel\assimp-vc130-mt.lib;ext_build\FreeImage\MinSizeRel\FreeImage.lib;ext_build\assimp\code\MinSizeRel\assimp-vc130-mt.lib;ext_build\critter\MinSizeRel\Critter.lib;winmm.lib;XInput9_1_0.lib;D3DCompiler.lib;d3D11.lib;dxguid.lib;dinput8.lib;dxgi.lib;ext_build\FreeImage\OpenEXR\MinSizeRel\OpenEXR.lib;ext_build\FreeImage\LibWebP\MinSizeRel\LibWebP.lib;ext_build\FreeImage\LibTIFF4\MinSizeRel\LibTIFF4.lib;ext_build\FreeImage\LibRawLite\MinSizeRel\LibRawLite.lib;ext_build\FreeImage\LibPNG\MinSizeRel\LibPNG.lib;ext_build\FreeImage\LibOpenJPEG\MinSizeRel\LibOpenJPEG.lib;ext_build\FreeImage\LibJXR\MinSizeRel\LibJXR.lib;ext_build\FreeImage\LibJPEG\MinSizeRel\LibJPEG.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/IBLBaker/lib/MinSizeRel/IBLBaker.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/proj/IBLBaker/bin64/MinSizeRel/IBLBaker.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4005;4996;4477;4267;4244</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__TBB_NO_IMPLICIT_LINKAGE;_UNICODE;IBL_USE_ASS_IMP_AND_FREEIMAGE=1;DIRECTINPUT_VERSION=0x0800;_SCL_SECURE_NO_WARNINGS=1;_CRT_SECURE_NO_WARNINGS=1;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\proj\IBLBaker\src;D:\proj\IBLBaker\src\critter\application;D:\proj\IBLBaker\src\critter\codecs;D:\proj\IBLBaker\src\critter\input;D:\proj\IBLBaker\src\critter\math;D:\proj\IBLBaker\src\critter\newui;D:\proj\IBLBaker\src\critter\nodes;D:\proj\IBLBaker\src\critter\renderAPI;D:\proj\IBLBaker\src\critter\resources;D:\proj\IBLBaker\src\critter\swizzling;D:\proj\IBLBaker\src\critter\ui;D:\proj\IBLBaker\src\critter\dependencies\assimp\include\assimp;D:\proj\IBLBaker\src\critter\dependencies\assimp\code;D:\proj\IBLBaker\src\critter\dependencies\cmdLine;D:\proj\IBLBaker\src\critter\dependencies\FreeImage;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source;D:\proj\IBLBaker\src\critter\dependencies\MurmerHash;D:\proj\IBLBaker\src\critter\dependencies\imgui;D:\proj\IBLBaker\src\critter\dependencies\libzip\lib;D:\proj\IBLBaker\src\critter\dependencies\libzip\src;D:\proj\IBLBaker\src\critter\dependencies\nanovg;D:\proj\IBLBaker\src\critter\dependencies\pugixml\src;D:\proj\IBLBaker\src\critter\dependencies\zlib;D:\proj\IBLBaker\src\critter\rendererD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Binary;D:\proj\IBLBaker\src\critter\rendererD3D11\effectsD3D11\Inc;D:\proj\IBLBaker\src\critter\rendererD3D11\errorD3D11;D:\proj\IBLBaker\ui;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\DeprecationManager;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmImf;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Imath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IexMath;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Iex;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\Half;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\IlmThread;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\OpenEXR\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibWebP\src;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibTIFF4\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibRawLite;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibPNG\..\..\..\zlib\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibOpenJPEG;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\image\sys;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\jxrgluelib;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJXR\common\include;D:\proj\IBLBaker\src\critter\dependencies\FreeImage\Source\LibJPEG;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -E copy_directory D:/proj/IBLBaker/bin64/RelWithDebInfo D:/proj/IBLBaker/bin64
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>ext_build\zlib\RelWithDebInfo\zlibstatic.lib;ext_build\libZip\lib\RelWithDebInfo\zip.lib;ext_build\assimp\code\RelWithDebInfo\assimp-vc130-mt.lib;ext_build\FreeImage\RelWithDebInfo\FreeImage.lib;ext_build\assimp\code\RelWithDebInfo\assimp-vc130-mt.lib;ext_build\critter\RelWithDebInfo\Critter.lib;winmm.lib;XInput9_1_0.lib;D3DCompiler.lib;d3D11.lib;dxguid.lib;dinput8.lib;dxgi.lib;ext_build\FreeImage\OpenEXR\RelWithDebInfo\OpenEXR.lib;ext_build\FreeImage\LibWebP\RelWithDebInfo\LibWebP.lib;ext_build\FreeImage\LibTIFF4\RelWithDebInfo\LibTIFF4.lib;ext_build\FreeImage\LibRawLite\RelWithDebInfo\LibRawLite.lib;ext_build\FreeImage\LibPNG\RelWithDebInfo\LibPNG.lib;ext_build\FreeImage\LibOpenJPEG\RelWithDebInfo\LibOpenJPEG.lib;ext_build\FreeImage\LibJXR\RelWithDebInfo\LibJXR.lib;ext_build\FreeImage\LibJPEG\RelWithDebInfo\LibJPEG.lib;ws2_32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/proj/IBLBaker/lib/RelWithDebInfo/IBLBaker.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/proj/IBLBaker/bin64/RelWithDebInfo/IBLBaker.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\proj\IBLBaker\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/proj/IBLBaker/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeCCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\proj\IBLBaker\Build64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/proj/IBLBaker/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeCCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\proj\IBLBaker\Build64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/proj/IBLBaker/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeCCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\proj\IBLBaker\Build64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/proj/IBLBaker/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake316\bin\cmake.exe" -SD:/proj/IBLBaker -BD:/proj/IBLBaker/Build64 --check-stamp-file D:/proj/IBLBaker/Build64/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\Windows.cmake;C:\Program Files\CMake316\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeCCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;D:\proj\IBLBaker\Build64\CMakeFiles\3.30.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\proj\IBLBaker\Build64\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\proj\IBLBaker\src\IblApplication.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\IblApplication.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\IblApplicationHUD.cpp" />
+    <ClInclude Include="D:\proj\IBLBaker\src\IblApplicationHUD.h" />
+    <ClCompile Include="D:\proj\IBLBaker\src\main.cpp" />
+    <ResourceCompile Include="D:\proj\IBLBaker\src\resources\IBLBaker.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ZERO_CHECK.vcxproj">
+      <Project>{A4DE1904-F9B1-31AF-8893-9CDA99087E93}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\critter\Critter.vcxproj">
+      <Project>{0270427A-3BFE-3844-9D83-8EAA7D817B5A}</Project>
+      <Name>Critter</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\FreeImage.vcxproj">
+      <Project>{1757C8A4-2682-343C-8283-169120E07A55}</Project>
+      <Name>FreeImage</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\LibJPEG\LibJPEG.vcxproj">
+      <Project>{D3FB0557-0A3D-3582-A27B-273DC969237D}</Project>
+      <Name>LibJPEG</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\LibJXR\LibJXR.vcxproj">
+      <Project>{B0E81E21-5803-3BB3-B2DC-78439F32A682}</Project>
+      <Name>LibJXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\LibOpenJPEG\LibOpenJPEG.vcxproj">
+      <Project>{842467B1-AFD5-3879-AFDC-CAAC6EC5B636}</Project>
+      <Name>LibOpenJPEG</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\LibPNG\LibPNG.vcxproj">
+      <Project>{008BED72-F792-38AF-A615-48464D45C515}</Project>
+      <Name>LibPNG</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\LibRawLite\LibRawLite.vcxproj">
+      <Project>{EFE7426A-80C8-36CB-B3BC-FD384F350908}</Project>
+      <Name>LibRawLite</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\LibTIFF4\LibTIFF4.vcxproj">
+      <Project>{45B47478-C1CA-3384-8930-D299B4BA4224}</Project>
+      <Name>LibTIFF4</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\LibWebP\LibWebP.vcxproj">
+      <Project>{AA0B333F-F7CE-3711-9963-8C5E49CF969D}</Project>
+      <Name>LibWebP</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\FreeImage\OpenEXR\OpenEXR.vcxproj">
+      <Project>{AA732AF6-866F-3070-A9EE-1A16D1B88283}</Project>
+      <Name>OpenEXR</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\assimp\code\assimp.vcxproj">
+      <Project>{39EF4C00-B1AB-3550-A041-9BE8D58EBB8B}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\libZip\lib\zip.vcxproj">
+      <Project>{0379C67A-06D3-3085-8745-C0837496CCAA}</Project>
+      <Name>zip</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\proj\IBLBaker\Build64\ext_build\zlib\zlibstatic.vcxproj">
+      <Project>{66FB4B71-4990-331A-9AA5-8EA039F9BAAE}</Project>
+      <Name>zlibstatic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
